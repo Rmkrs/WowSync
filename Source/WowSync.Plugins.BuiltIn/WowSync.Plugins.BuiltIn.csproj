@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WowSync.Core\WowSync.Core.csproj" />
+    <ProjectReference Include="..\WowSync.Plugins.Abstractions\WowSync.Plugins.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,65 @@
+# Visual Studio / Rider / VS Code
+.vs/
+.idea/
+.vscode/*
+!.vscode/settings.json
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+
+# Build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+artifacts/
+publish/
+
+# Test results / coverage
+[Tt]est[Rr]esult*/
+*.trx
+TestResult.xml
+coverage/
+coverage.*
+*.coverage
+*.coveragexml
+
+# NuGet / packages
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Logs / temp files
+*.log
+*.tmp
+*.cache
+*.pidb
+*.svclog
+~$*
+*~
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets / local config
+.env
+.env.*
+!.env.example
+local.settings.json
+appsettings.Local.json
+appsettings.Development.local.json
+*.pfx
+*.publishsettings
+*.pubxml
+*.azurePubxml
+
+# WowSync local/generated data
+*.lua.bak
+*.wowsync_write_probe.tmp

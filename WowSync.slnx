@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/Source/">
+    <Project Path="Source/WowSync.App/WowSync.App.csproj" />
+    <Project Path="Source/WowSync.Core/WowSync.Core.csproj" />
+    <Project Path="Source/WowSync.Plugins.Abstractions/WowSync.Plugins.Abstractions.csproj" />
+    <Project Path="Source/WowSync.Plugins.BuiltIn/WowSync.Plugins.BuiltIn.csproj" />
+  </Folder>
+</Solution>
